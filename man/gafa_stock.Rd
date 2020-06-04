@@ -3,7 +3,9 @@
 \name{gafa_stock}
 \alias{gafa_stock}
 \title{GAFA stock prices}
-\format{Time series of class \code{tsibble}}
+\format{
+Time series of class \code{tsibble}
+}
 \source{
 Yahoo Finance historical data, \url{https://finance.yahoo.com/}
 }
@@ -26,5 +28,9 @@ Each stock is uniquely identified by one key:
 \tabular{ll}{
 Symbol:      \tab The ticker symbol for the stock.\cr
 }
+}
+\examples{
+library(tsibble)
+gafa_stock
 }
 \keyword{datasets}

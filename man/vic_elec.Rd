@@ -4,7 +4,9 @@
 \name{vic_elec}
 \alias{vic_elec}
 \title{Half-hourly electricity demand for Victoria, Australia}
-\format{Time series of class \code{tsibble}.}
+\format{
+Time series of class \code{tsibble}.
+}
 \source{
 Australian Energy Market Operator.
 }
@@ -28,8 +30,7 @@ small wind farms, etc), and demand of local scheduled loads. It also
 excludes some very large industrial users (such as mines or smelters).
 }
 \examples{
-
+library(tsibble)
 vic_elec
-
 }
 \keyword{datasets}

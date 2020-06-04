@@ -3,7 +3,9 @@
 \name{aus_retail}
 \alias{aus_retail}
 \title{Australian retail trade turnover}
-\format{Time series of class \code{tsibble}}
+\format{
+Time series of class \code{tsibble}
+}
 \source{
 Australian Bureau of Statistics, catalogue number 8501.0, table 11.
 }
@@ -19,5 +21,10 @@ Each series is uniquely identified using two keys:
 State:     \tab The Australian state (or territory)\cr
 Industry:     \tab The industry of retail trade\cr
 }
+}
+\examples{
+library(tsibble)
+aus_retail
+
 }
 \keyword{datasets}

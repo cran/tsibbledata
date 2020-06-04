@@ -3,7 +3,9 @@
 \name{ansett}
 \alias{ansett}
 \title{Passenger numbers on Ansett airline flights}
-\format{Time series of class \code{tsibble}}
+\format{
+Time series of class \code{tsibble}
+}
 \source{
 Ansett Airlines (which no longer exists).
 }
@@ -23,5 +25,10 @@ Each series is uniquely identified using two keys:
 Airports:  \tab The airports that passengers are travelling between (both directions)\cr
 Class:     \tab The class of the ticket.\cr
 }
+}
+\examples{
+library(tsibble)
+ansett
+
 }
 \keyword{datasets}

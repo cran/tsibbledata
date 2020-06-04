@@ -3,7 +3,9 @@
 \name{pelt}
 \alias{pelt}
 \title{Pelt trading records}
-\format{Time series of class \code{tsibble}}
+\format{
+Time series of class \code{tsibble}
+}
 \source{
 Hudson Bay Company
 }
@@ -17,5 +19,9 @@ from 1845 to 1935. This data contains trade records for all areas of the company
 Hare:      \tab The number of Snowshoe Hare pelts traded.\cr
 Lynx:      \tab The number of Canadian Lynx pelts traded.\cr
 }
+}
+\examples{
+library(tsibble)
+pelt
 }
 \keyword{datasets}

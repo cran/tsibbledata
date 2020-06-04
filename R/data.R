@@ -21,7 +21,7 @@
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
+#' library(tsibble)
 #' PBS
 #'
 NULL
@@ -30,12 +30,12 @@ NULL
 #'
 #' \code{olympic_running} is a quadrennial `tsibble` with one value:
 #' \tabular{ll}{
-#'     Time:      \tab Fastest running time for the event\cr
+#'     Time:      \tab Fastest running time for the event (seconds)\cr
 #' }
 #'
 #' The event is identified using two keys:
 #' \tabular{ll}{
-#'     Length:     \tab The length of the race\cr
+#'     Length:     \tab The length of the race (meters)\cr
 #'     Sex:     \tab The sex of the event\cr
 #' }
 #'
@@ -48,12 +48,16 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#' library(ggplot2)
 #' library(tsibble)
+#' olympic_running
+#'
+#' if(requireNamespace("ggplot2")){
+#' library(ggplot2)
 #' olympic_running %>% as_tibble %>%
 #'   ggplot(aes(x=Year, y = Time, colour = Sex)) +
 #'   geom_line() +
 #'   facet_wrap(~ Length, scales = "free_y")
+#' }
 NULL
 
 #' Australian retail trade turnover
@@ -75,6 +79,11 @@ NULL
 #' @name aus_retail
 #' @format Time series of class `tsibble`
 #' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' aus_retail
+#'
 NULL
 
 #' Passenger numbers on Ansett airline flights
@@ -100,6 +109,10 @@ NULL
 #' @name ansett
 #' @format Time series of class `tsibble`
 #' @keywords datasets
+#' @examples
+#' library(tsibble)
+#' ansett
+#'
 NULL
 
 
@@ -137,6 +150,9 @@ NULL
 #' @name nyc_bikes
 #' @format Time series of class `tsibble`
 #' @keywords datasets
+#' @examples
+#' library(tsibble)
+#' nyc_bikes
 NULL
 
 #' GAFA stock prices
@@ -165,6 +181,9 @@ NULL
 #' @name gafa_stock
 #' @format Time series of class `tsibble`
 #' @keywords datasets
+#' @examples
+#' library(tsibble)
+#' gafa_stock
 NULL
 
 
@@ -185,6 +204,9 @@ NULL
 #' @name pelt
 #' @format Time series of class `tsibble`
 #' @keywords datasets
+#' @examples
+#' library(tsibble)
+#' pelt
 NULL
 
 
@@ -192,13 +214,13 @@ NULL
 #'
 #' Economic indicators featured by the World Bank from 1960 to 2017.
 #'
-#' \code{global_economy} is an annual `tsibble` with two values:
+#' \code{global_economy} is an annual `tsibble` with six values:
 #' \tabular{ll}{
 #'     GDP:       \tab Gross domestic product (in $USD February 2019).\cr
 #'     Growth:    \tab Annual percentage growth in GDP.\cr
 #'     CPI:       \tab Consumer price index (base year 2010).\cr
-#'     Imports:   \tab Imports of goods and services (\% of GDP).\cr
-#'     Exports:   \tab Exports of goods and services (\% of GDP).\cr
+#'     Imports:   \tab Imports of goods and services (% of GDP).\cr
+#'     Exports:   \tab Exports of goods and services (% of GDP).\cr
 #'     Population:\tab Total population.
 #' }
 #'
@@ -213,6 +235,9 @@ NULL
 #' @name global_economy
 #' @format Time series of class `tsibble`
 #' @keywords datasets
+#' @examples
+#' library(tsibble)
+#' global_economy
 NULL
 
 #' Australian livestock slaughter
@@ -235,6 +260,9 @@ NULL
 #' @name aus_livestock
 #' @format Time series of class `tsibble`
 #' @keywords datasets
+#' @examples
+#' library(tsibble)
+#' aus_livestock
 NULL
 
 #' Half-hourly electricity demand for Victoria, Australia
@@ -265,9 +293,8 @@ NULL
 #'
 #' @keywords datasets
 #' @examples
-#'
+#' library(tsibble)
 #' vic_elec
-#'
 NULL
 
 #' Quarterly production of selected commodities in Australia.
@@ -292,7 +319,7 @@ NULL
 #'
 #' @keywords datasets
 #' @examples
-#'
+#' library(tsibble)
 #' aus_production
 #'
 NULL
@@ -325,7 +352,7 @@ NULL
 #'
 #' @keywords datasets
 #' @examples
-#'
+#' library(tsibble)
 #' hh_budget
 #'
 NULL

@@ -3,7 +3,9 @@
 \name{PBS}
 \alias{PBS}
 \title{Monthly Medicare Australia prescription data}
-\format{Time series of class \code{tsibble}}
+\format{
+Time series of class \code{tsibble}
+}
 \source{
 Medicare Australia
 }
@@ -24,7 +26,7 @@ ATC2:     \tab Anatomical Therapeutic Chemical index (level 2)\cr
 }
 }
 \examples{
-
+library(tsibble)
 PBS
 
 }

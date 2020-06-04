@@ -3,8 +3,8 @@
 
 # tsibbledata <a href='https://tsibbledata.tidyverts.org'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
 
-[![Travis build
-status](https://travis-ci.org/tidyverts/tsibbledata.svg?branch=master)](https://travis-ci.org/tidyverts/tsibbledata)
+[![R build
+status](https://github.com/tidyverts/tsibbledata/workflows/R-CMD-check/badge.svg)](https://github.com/tidyverts/tsibbledata)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/tsibbledata)](https://cran.r-project.org/package=tsibbledata)
 
 This package provides examples of
@@ -13,12 +13,19 @@ within the [tidyverts](https://tidyverts.org/) family of packages.
 
 ## Installation
 
-You can install the development version from
-[GitHub](https://github.com/) with:
+You could install the stable version on
+[CRAN](https://cran.r-project.org/package=tsibbledata):
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("tidyverts/tsibbledata")
+install.packages("tsibbledata")
+```
+
+You could install the development version from
+[GitHub](https://github.com/) using
+
+``` r
+# install.packages("remotes")
+remotes::install_github("tidyverts/tsibbledata")
 ```
 
 ## Example
