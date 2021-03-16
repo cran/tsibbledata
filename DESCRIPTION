@@ -1,5 +1,5 @@
 Package: tsibbledata
-Version: 0.2.0
+Version: 0.3.0
 Title: Diverse Datasets for 'tsibble'
 Description: Provides diverse datasets in the 'tsibble' data structure. These datasets are useful for learning and demonstrating how tidy temporal data can tidied, visualised, and forecasted.
 Authors@R: c(
@@ -12,17 +12,17 @@ Imports: tsibble (>= 0.9.0)
 Suggests: ggplot2
 ByteCompile: true
 License: GPL-3
-URL: http://tsibbledata.tidyverts.org/,
+URL: https://tsibbledata.tidyverts.org/,
         https://github.com/tidyverts/tsibbledata/
 BugReports: https://github.com/tidyverts/tsibbledata/issues
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2020-06-04 09:20:53 UTC; mitchell
+Packaged: 2021-03-16 09:43:02 UTC; mitchell
 Author: Mitchell O'Hara-Wild [aut, cre],
   Rob Hyndman [aut],
   Earo Wang [aut]
 Maintainer: Mitchell O'Hara-Wild <mail@mitchelloharawild.com>
 Repository: CRAN
-Date/Publication: 2020-06-04 23:00:03 UTC
+Date/Publication: 2021-03-16 11:50:02 UTC
