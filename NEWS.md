@@ -1,4 +1,10 @@
-# tsibbledata 0.3.0
+# tsibbledata 0.4.0
+
+* Added `monash_forecasting_repository()` for access to tsibble formatted data
+  from the Monash Forecasting Repository (https://forecastingdata.org/).
+* Documentation improvements
+
+# tsibbledata 0.3.0 (17th March 2021)
 
 * Filled gaps in PBS with zeroes.
 * Updated `nyc_bikes` and `gafa_stock` data objects for tsibble changes. This

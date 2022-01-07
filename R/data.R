@@ -42,7 +42,7 @@ NULL
 #' The data contains missing values in 1916, 1940 and 1944 due to the World Wars.
 #'
 #' @source
-#' <https://www.olympic.org/athletics>
+#' <https://olympics.com/en/sports/athletics/>
 #'
 #' @name olympic_running
 #' @format Time series of class `tsibble`
@@ -176,7 +176,7 @@ NULL
 #' }
 #'
 #' @source
-#' Yahoo Finance historical data, <https://finance.yahoo.com/>
+#' Yahoo Finance historical data
 #'
 #' @name gafa_stock
 #' @format Time series of class `tsibble`
@@ -242,20 +242,21 @@ NULL
 
 #' Australian livestock slaughter
 #'
-#' Meat production in Australia for human consumption from Q3 1965 to Q4 2018.
+#' Meat production in Australia for human consumption
 #'
-#' \code{aus_livestock} is an quarterly `tsibble` with one value:
+#' \code{aus_livestock} is a monthly `tsibble` with one value:
 #' \tabular{ll}{
 #'     Count:    \tab Number of animals slaughtered.\cr
 #' }
 #'
-#' Each series is uniquely identified by one key:
+#' Each series is uniquely identified using two keys:
 #' \tabular{ll}{
 #'     Animal:   \tab The animal slaughtered.\cr
+#'     State:    \tab The Australian state (or territory).\cr
 #' }
 #'
 #' @source
-#' Australian Bureau of Statistics, catalogue number 7218.0.55.001 tables 1 to 6.
+#' Australian Bureau of Statistics, catalogue number 7218.0.55.001 tables 1 to 7.
 #'
 #' @name aus_livestock
 #' @format Time series of class `tsibble`
