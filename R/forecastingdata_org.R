@@ -49,6 +49,15 @@ monash_forecasting_repository <- function(record_id){
     logical(1L)
   )
 
+  if(!any(is_index)) {
+    pos <- vctrs::vec_group_loc(data[-ncol(data)])$loc
+    idx <- lapply(pos, seq_along)
+    data["index"] <- unlist(idx, recursive = FALSE, use.names = FALSE)[unlist(pos, recursive = FALSE, use.names = FALSE)]
+    data <- data[c(seq_len(ncol(data)-2), ncol(data), ncol(data)-1)]
+    cn <- colnames(data)
+    is_index <- c(is_index, TRUE)
+  }
+
   tsibble::build_tsibble(
     data,
     key = cn[which(!is_index)], index = cn[which(is_index)],

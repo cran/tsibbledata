@@ -1,11 +1,11 @@
-9f0821449d62a2761be331cf9e04ccf7 *DESCRIPTION
+3b6c2af0795b57eaf5714bf30369fb4e *DESCRIPTION
 5c6873c2a5e284b8f3b0911cc02c1187 *NAMESPACE
-182343dabd4a1c2e5bdb3185f6993cd1 *NEWS.md
-faecfa97ca4544b4d602aa7b3c532f58 *R/data.R
-bf6f2c9f6d13b5f980f57023beeb36de *R/forecastingdata_org.R
+aafa77afe3ce5164e2d9373465e96d43 *NEWS.md
+774ba939b97ce13a4db2f5e2c4a6025b *R/data.R
+6b15dbcad157813efa86a2111479ac53 *R/forecastingdata_org.R
 b4fe12876c37f8a22cde06e9701eecf0 *R/tsibbledata-package.R
 c7f5bec88aa16e2890dd8404f5773e94 *R/utils.R
-8bc050d426060cdcd1e26d98d928cd58 *README.md
+853ffb203077458488320b10d65af266 *README.md
 2080345798a492cc287d227562cc8af6 *data/PBS.rda
 2f0f5520fdd7bb65e5941a14a181de2b *data/ansett.rda
 deea58cf1592c2b89f4c4b6e087025c6 *data/aus_livestock.rda
@@ -32,5 +32,5 @@ fb7a0c3021549355edc797ae3f20564e *man/aus_retail.Rd
 284e691ac51567b2342a1d5a3edbf9a0 *man/nyc_bikes.Rd
 9c6b4ca3124ae2c313e572f5e7999810 *man/olympic_running.Rd
 ab50307abd797e1789b69a0769506a6f *man/pelt.Rd
-63e464a7317a59bf032b0c5beba9aea7 *man/tsibbledata-package.Rd
-e6e5e7c04b0f28c3eeab01c227271988 *man/vic_elec.Rd
+3998442c010b29f614d3426af36b833a *man/tsibbledata-package.Rd
+fa265049cf3f0eba1547dd505acc8bd6 *man/vic_elec.Rd

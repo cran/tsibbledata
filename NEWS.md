@@ -1,3 +1,8 @@
+# tsibbledata 0.4.1
+
+* Add row number index for datasets without natural time index obtained with
+  `monash_forecasting_repository()` (#19).
+
 # tsibbledata 0.4.0
 
 * Added `monash_forecasting_repository()` for access to tsibble formatted data
